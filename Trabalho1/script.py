@@ -12,6 +12,7 @@ import time
 
 # esse script compila e roda os exercicios, tambem imprime a tabela de resultados no terminal
 # importante o nome dos arquivos estarem de acordo com o dicionario definido em setup_dict
+# esse trabalho foi feito utilizando o google colab
 
 # --- ETAPA 1: CONFIGURAÇÃO DO AMBIENTE E DO EXPERIMENTO ---
 # Esta seção funciona como o "painel de controle" do seu experimento.
