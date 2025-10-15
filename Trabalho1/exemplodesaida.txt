@@ -1,0 +1,59 @@
+--- Iniciando Compilação ---
+Compilando exercicioA.c -> exercicioA...
+Compilando exercicioB.c -> exercicioB...
+Compilando exercicioC.c -> exercicioC...
+--- Compilação Finalizada ---
+
+--- Iniciando Execução dos Testes (isso pode levar um tempo) ---
+Teste: exercicioA (n=1024, p=1) -> OK (0.0135s)
+Teste: exercicioA (n=1024, p=2) -> OK (0.0175s)
+Teste: exercicioA (n=1024, p=4) -> OK (0.0230s)
+Teste: exercicioA (n=1024, p=8) -> OK (0.0311s)
+Teste: exercicioA (n=2048, p=1) -> OK (0.0557s)
+Teste: exercicioA (n=2048, p=2) -> OK (0.0604s)
+Teste: exercicioA (n=2048, p=4) -> OK (0.1742s)
+Teste: exercicioA (n=2048, p=8) -> OK (0.1440s)
+Teste: exercicioB (n=1024, p=1) -> OK (0.0064s)
+Teste: exercicioB (n=1024, p=2) -> OK (0.0067s)
+Teste: exercicioB (n=1024, p=4) -> OK (0.0106s)
+Teste: exercicioB (n=1024, p=8) -> OK (0.0088s)
+Teste: exercicioB (n=2048, p=1) -> OK (0.0237s)
+Teste: exercicioB (n=2048, p=2) -> OK (0.0240s)
+Teste: exercicioB (n=2048, p=4) -> OK (0.0312s)
+Teste: exercicioB (n=2048, p=8) -> OK (0.0456s)
+Teste: exercicioC (n=1024, p=1) -> OK (0.0064s)
+Teste: exercicioC (n=1024, p=2) -> OK (0.0090s)
+Teste: exercicioC (n=1024, p=4) -> OK (0.0126s)
+Teste: exercicioC (n=1024, p=8) -> OK (0.0144s)
+Teste: exercicioC (n=2048, p=1) -> OK (0.0256s)
+Teste: exercicioC (n=2048, p=2) -> OK (0.0350s)
+Teste: exercicioC (n=2048, p=4) -> OK (0.0834s)
+Teste: exercicioC (n=2048, p=8) -> OK (0.1198s)
+--- Execução Finalizada ---
+
+--- Tabela Consolidada de Resultados ---
+ algoritmo    n  processos  tempo_s  tempo_seq_s  speedup  eficiencia_%
+exercicioA 1024          1   0.0135       0.0135   1.0000      100.0000
+exercicioA 1024          2   0.0175       0.0135   0.7681       38.4034
+exercicioA 1024          4   0.0230       0.0135   0.5848       14.6200
+exercicioA 1024          8   0.0311       0.0135   0.4329        5.4111
+exercicioA 2048          1   0.0557       0.0557   1.0000      100.0000
+exercicioA 2048          2   0.0604       0.0557   0.9221       46.1045
+exercicioA 2048          4   0.1742       0.0557   0.3199        7.9966
+exercicioA 2048          8   0.1440       0.0557   0.3869        4.8367
+exercicioB 1024          1   0.0064       0.0064   1.0000      100.0000
+exercicioB 1024          2   0.0067       0.0064   0.9654       48.2725
+exercicioB 1024          4   0.0106       0.0064   0.6074       15.1838
+exercicioB 1024          8   0.0088       0.0064   0.7289        9.1106
+exercicioB 2048          1   0.0237       0.0237   1.0000      100.0000
+exercicioB 2048          2   0.0240       0.0237   0.9895       49.4764
+exercicioB 2048          4   0.0312       0.0237   0.7593       18.9831
+exercicioB 2048          8   0.0456       0.0237   0.5200        6.5002
+exercicioC 1024          1   0.0064       0.0064   1.0000      100.0000
+exercicioC 1024          2   0.0090       0.0064   0.7127       35.6364
+exercicioC 1024          4   0.0126       0.0064   0.5093       12.7325
+exercicioC 1024          8   0.0144       0.0064   0.4457        5.5716
+exercicioC 2048          1   0.0256       0.0256   1.0000      100.0000
+exercicioC 2048          2   0.0350       0.0256   0.7297       36.4843
+exercicioC 2048          4   0.0834       0.0256   0.3065        7.6629
+exercicioC 2048          8   0.1198       0.0256   0.2134        2.6672
